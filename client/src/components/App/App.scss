@@ -1,0 +1,33 @@
+$mdc-theme-primary: #fcb8ab;
+$mdc-theme-secondary: #feeae6;
+$mdc-theme-on-primary: #442b2d;
+$mdc-theme-on-secondary: #442b2d;
+
+@import '@material/react-layout-grid/index.scss';
+
+:root {
+    --mdc-theme-primary: #E65100;
+    --mdc-theme-secondary: #ffffff;
+    --mdc-theme-on-primary: #ffffff;
+    --mdc-theme-on-secondary: #FF6D00;
+    --mdc-layout-grid-gutter-desktop: 0px;
+    --mdc-layout-grid-gutter-tablet: 0px;
+} 
+
+.app-bar-adjust {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.app-grid {
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.app-row {
+    height: 100%;
+}

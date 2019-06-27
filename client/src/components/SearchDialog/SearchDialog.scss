@@ -1,0 +1,11 @@
+@import '@material/react-dialog/index.scss';
+@import '@material/react-text-field/index.scss';
+
+// .search-dialog {
+//     @include mdc-dialog-max-height(400px, 15px)
+// }
+
+.search-content {
+    height: 500px;
+    width: 400px;
+}

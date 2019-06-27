@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.chat-area {
+    height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow:auto;
+    font-family: 'Roboto', sans-serif;
+    // background: #f6fdff
+}
+
+
+
+.chat-area::-webkit-scrollbar {
+    width: .5em;
+}
+ 
+.chat-area::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.chat-area::-webkit-scrollbar-thumb {
+  background-color: #57a6d1;
+
+}
+
+.chat-box {
+    min-height: min-content;
+    display: flex;
+    flex-direction: column;
+    // background: url('https://d11bzj7xhj1mue.cloudfront.net/wp-content/uploads/2017/01/light-pattern-pappern-736768.jpg')
+}

@@ -1,0 +1,35 @@
+@import "@material/elevation/mdc-elevation";
+
+.message-outer-container {
+    display: flex;
+    padding: 5px 60px;
+    
+}
+
+.outgoing {
+    justify-content: flex-end;
+
+    .message-inner-container {
+        background: #e7ecf0f5;
+    }
+}
+
+.message-inner-container {
+    border-radius: 5px;
+    max-width: 80%;
+    padding: 12px 10px;
+    background: #aec1cce1
+}
+
+
+.message {
+    font-size: 16px;
+}
+
+.message-time {
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+    font-size: 10px;
+    color: #555;
+}
