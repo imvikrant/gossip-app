@@ -9,7 +9,7 @@
     "start-watch": "nodemon -r dotenv/config server/server.js",
     "dev": "concurrently --kill-others \"npm run start-watch\" \"npm run client-watch\"",
     "build": "parcel build ./client/public/index.html", 
-    "start": "node -r dotenv/config server/server.js",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
