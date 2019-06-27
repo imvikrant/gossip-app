@@ -8,8 +8,8 @@
     "client-watch": "parcel watch ./client/public/index.html",
     "start-watch": "nodemon -r dotenv/config server/server.js",
     "dev": "concurrently --kill-others \"npm run start-watch\" \"npm run client-watch\"",
-    "build": "parcel build ./client/public/index.html",
-    "start": "npm run build && node -r dotenv/config server/server.js",
+    "build": "parcel build ./client/public/index.html", 
+    "start": "node -r dotenv/config server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
